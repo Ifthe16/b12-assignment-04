@@ -16,7 +16,7 @@ function resultReport(marks) {
         totalMarks += mark;
     }
     const subjectCount = marks.length;
-    const averageMark = subjectCount === 0? 0: Math.round(totalMarks / subjectCount);
+    const averageMark = subjectCount === 0 ? 0 : Math.round(totalMarks / subjectCount);
     const studentResult = {};
     studentResult.finalScore = averageMark;
     studentResult.pass = passSubjectCount;
