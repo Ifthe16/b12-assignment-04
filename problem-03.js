@@ -1,6 +1,6 @@
 /* Problem-03 */
 function bestTeam(player1, player2) {
-    if (typeof player1 !== 'object' || typeof player2 !== 'object') {
+    if (typeof player1 !== 'object' || typeof player2 !== 'object' || Array.isArray(player1) === true || Array.isArray(player2) === true) {
         return 'Invalid';
     }
     const fairPoint1 = player1.foul + player1.cardY + player1.cardR;
