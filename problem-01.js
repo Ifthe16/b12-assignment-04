@@ -9,5 +9,5 @@ function totalFine(fare) {
     return fine;
 }
 
-const fine = totalFine(200);
+const fine = totalFine(552);
 console.log(fine);
