@@ -15,7 +15,8 @@ function isSame(arr1, arr2) {
 }
 
 
-const array1 = [1, 2, 3];
-const array2 = [1, 2, 3];
+const array1 = [1, "4", 4];
+const array2 = [1, 4, 4]
+    ;
 const isSameArray = isSame(array1, array2);
 console.log(isSameArray);
